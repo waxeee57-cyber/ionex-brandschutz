@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "IBM Plex Sans", "IBM Plex Sans Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "IBM Plex Mono Fallback", ui-monospace, monospace;
+  --font-heading: "IBM Plex Sans", "IBM Plex Sans Fallback", ui-sans-serif, system-ui, sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ember: #c24a2a;
+  --color-steel: #5b8fa8;
+  --color-ink: #07090f;
+  --color-panel: #10161f;
+  --color-raised: #171f2a;
+  --color-ok: #3d8b6e;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.375rem;
+  --radius-2xl: 0.5rem;
+  --radius-3xl: 0.5rem;
+  --radius-4xl: 0.5rem;
+}
+
+:root,
+.dark {
+  --background: #07090f;
+  --foreground: #e8eef4;
+  --card: #10161f;
+  --card-foreground: #e8eef4;
+  --popover: #10161f;
+  --popover-foreground: #e8eef4;
+  --primary: #c24a2a;
+  --primary-foreground: #f7f1ec;
+  --secondary: #171f2a;
+  --secondary-foreground: #e8eef4;
+  --muted: #171f2a;
+  --muted-foreground: #8b97a8;
+  --accent: #1a2834;
+  --accent-foreground: #c5d6e0;
+  --destructive: #d45050;
+  --border: #2a3544;
+  --input: #2a3544;
+  --ring: #c24a2a;
+  --radius: 0.25rem;
+  --sidebar: #10161f;
+  --sidebar-foreground: #e8eef4;
+  --sidebar-primary: #c24a2a;
+  --sidebar-primary-foreground: #f7f1ec;
+  --sidebar-accent: #171f2a;
+  --sidebar-accent-foreground: #e8eef4;
+  --sidebar-border: #2a3544;
+  --sidebar-ring: #c24a2a;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans scroll-smooth;
+    background: var(--background);
+    color: var(--foreground);
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image:
+      linear-gradient(to right, rgb(42 53 68 / 0.28) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(42 53 68 / 0.28) 1px, transparent 1px);
+    background-size: 72px 72px;
+    background-position: center top;
+  }
+
+  ::selection {
+    background: rgb(194 74 42 / 0.35);
+    color: #f7f1ec;
+  }
+}
+
+@utility touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+@keyframes ionex-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ionex-heat {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.reveal {
+  animation: ionex-rise 0.55s ease-out both;
+}
+
+.heat-pulse {
+  animation: ionex-heat 4.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal,
+  .heat-pulse {
+    animation: none;
+  }
+}
