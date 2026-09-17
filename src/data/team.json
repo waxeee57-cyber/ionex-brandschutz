@@ -1,0 +1,34 @@
+[
+  {
+    "id": "eisenberg",
+    "name": "Dr.-Ing. Mara Eisenberg",
+    "roleDe": "Geschäftsführung · Brandschutz",
+    "roleEn": "Managing director · fire safety",
+    "focusDe": "Schutzziele, Bauordnung, Versicherer. 14 Jahre Industriebau und Energiespeicher.",
+    "focusEn": "Protection objectives, building code, insurers. 14 years in industrial buildings and energy storage."
+  },
+  {
+    "id": "hartwig",
+    "name": "Dipl.-Ing. Jonas Hartwig",
+    "roleDe": "Leitung thermische Ereignisse",
+    "roleEn": "Head of thermal events",
+    "focusDe": "Propagation, Gaspfade, Hüllkurven. Zuvor Batterietestlabor.",
+    "focusEn": "Propagation, gas paths, envelopes. Previously battery test laboratory."
+  },
+  {
+    "id": "krueger",
+    "name": "Dipl.-Ing. Lea Krüger",
+    "roleDe": "Genehmigungsmanagement",
+    "roleEn": "Permitting lead",
+    "focusDe": "BImSchG, Bauaufsicht, Auflagen. Schnittstelle Projektentwicklung.",
+    "focusEn": "Environmental permit, building control, conditions. Interface to development."
+  },
+  {
+    "id": "solberg",
+    "name": "M.Sc. Henrik Solberg",
+    "roleDe": "Detektion und Löschung",
+    "roleEn": "Detection and suppression",
+    "focusDe": "Anlagentechnik, Löschwasser, Werksfeuerwehr. Dänisch-deutsche Projekte.",
+    "focusEn": "Systems, fire water, works brigades. Danish–German projects."
+  }
+]
