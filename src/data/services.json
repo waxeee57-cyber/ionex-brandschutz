@@ -1,0 +1,158 @@
+[
+  {
+    "id": "konzept",
+    "index": "01",
+    "de": {
+      "title": "Brandschutzkonzept BESS",
+      "lede": "Genehmigungsfähiges Konzept für Container- und Gebäudeanlagen — Abstände, Brandabschnitte, Nutzungsklassen.",
+      "body": "Wir führen das Brandschutzkonzept als Nachweisdokument, nicht als Broschüre. Grundlage sind Bauordnung, MIndBauRL, Objektbeschreibung und die tatsächliche Containeranordnung. Ergebnis ist ein prüfbares Konzept für Bauaufsicht, Feuerwehr und Versicherer.",
+      "points": [
+        "Schutzziele, Szenarien, Brandabschnitte",
+        "Abstände zu Grenze, Gebäuden, Trafostationen",
+        "Zufahrt, Aufstellflächen, Löschwasserbedarf",
+        "Schnittstelle zum betrieblichen Alarmplan"
+      ]
+    },
+    "en": {
+      "title": "BESS fire-safety concept",
+      "lede": "Approvable concepts for container and building installations — separations, compartments, occupancy.",
+      "body": "The fire concept is a compliance document, not a brochure. It is built from building code, industrial-building guidance, the actual layout, and the object description. The output is reviewable by building control, the fire service, and insurers.",
+      "points": [
+        "Protection objectives, scenarios, compartments",
+        "Setbacks to boundary, buildings, transformers",
+        "Access, hardstanding, fire-water demand",
+        "Interface to the operational alarm plan"
+      ]
+    }
+  },
+  {
+    "id": "thermal",
+    "index": "02",
+    "de": {
+      "title": "Thermische Ereignisanalyse",
+      "lede": "Thermal-Runaway-Propagation, Kapselung, benachbarte Container, Gas- und Wärmefreisetzung.",
+      "body": "Wir bewerten, wie ein Zellen- oder Modulereignis in der konkreten Aufstellung eskaliert. Ohne diese Analyse bleiben Löschstrategie und Abstände Annahmen. Wir arbeiten mit Herstellerdaten, Propagationstests und konservativen Hüllkurven — nicht mit Marketingkurven.",
+      "points": [
+        "Propagation und Deflagrationsrisiko",
+        "Wärmefreisetzung und Nachbarcontainer",
+        "Gaspfade, Detektion, Lüftung",
+        "Eingangsdaten für Lösch- und Abstandskonzept"
+      ]
+    },
+    "en": {
+      "title": "Thermal event analysis",
+      "lede": "Thermal-runaway propagation, containment, adjacent containers, heat and gas release.",
+      "body": "We assess how a cell or module event escalates in the actual layout. Without that analysis, suppression and setbacks remain assumptions. We use manufacturer data, propagation tests and conservative envelopes — not marketing curves.",
+      "points": [
+        "Propagation and deflagration risk",
+        "Heat release and neighbouring containers",
+        "Gas paths, detection, ventilation",
+        "Inputs for suppression and separation design"
+      ]
+    }
+  },
+  {
+    "id": "suppression",
+    "index": "03",
+    "de": {
+      "title": "Detektion und Löschung",
+      "lede": "Anlagenplanung für Detektion, Inertisierung, Wasser und Werksfeuerwehr — passend zur Chemie und zur Behörde.",
+      "body": "Löschung ist keine Produktentscheidung. Wir legen Schutzziel, Wirkprinzip und Nachweis fest, bevor Hardware gewählt wird. Das verhindert Anlagen, die eine Norm zitieren, aber das Ereignis nicht beherrschen.",
+      "points": [
+        "Detektionsketten und Fehlalarmstrategie",
+        "Wasser, Sprühnebel, Inertgas — mit Begründung",
+        "Löschwasserrückhaltung und Umweltschutz",
+        "Schnittstelle Werks- und öffentliche Feuerwehr"
+      ]
+    },
+    "en": {
+      "title": "Detection and suppression",
+      "lede": "Detection, inerting, water and works-brigade design — matched to chemistry and the authority.",
+      "body": "Suppression is not a product choice. We set the protection objective, principle and evidence before hardware is selected. That avoids systems that cite a standard but do not control the event.",
+      "points": [
+        "Detection chains and nuisance-alarm strategy",
+        "Water, water mist, inert gas — justified",
+        "Fire-water containment and environmental protection",
+        "Interface to works and public fire services"
+      ]
+    }
+  },
+  {
+    "id": "permit",
+    "index": "04",
+    "de": {
+      "title": "Genehmigungsbegleitung",
+      "lede": "Bauaufsicht, BImSchG, Feuerwehr, Versicherer, Netzbetreiber — ein Nachweisordner, eine Sprache.",
+      "body": "BESS-Projekte scheitern selten an der Technik, häufiger an unklaren Zuständigkeiten. Wir strukturieren die Nachweise so, dass jede Stelle ihre Frage wiederfindet: Brandschutz, Immission, Störfall, Netzanschluss.",
+      "points": [
+        "Behördenmapping und Einreichstrategie",
+        "Stellungnahmen und Erwiderungen",
+        "Teilnahme an Terminen mit Feuerwehr und Bauamt",
+        "Auflagenmanagement bis Inbetriebnahme"
+      ]
+    },
+    "en": {
+      "title": "Permitting support",
+      "lede": "Building control, environmental permit, fire service, insurer, grid operator — one evidence pack, one language.",
+      "body": "BESS projects rarely fail on hardware. They stall on unclear responsibilities. We structure the evidence so each authority finds its question: fire, emissions, major-accident, grid connection.",
+      "points": [
+        "Authority mapping and filing strategy",
+        "Opinions and written responses",
+        "Attendance with fire service and building control",
+        "Condition management through commissioning"
+      ]
+    }
+  },
+  {
+    "id": "diligence",
+    "index": "05",
+    "de": {
+      "title": "Due Diligence und GAP",
+      "lede": "Abgleich gegen NFPA 855, VdS 3103, IEC 62933-5-2, FM DS 5-48 — für Investoren, Käufer, Betreiber.",
+      "body": "Wir prüfen, was vertraglich, versicherungstechnisch und genehmigungsrechtlich klafft. Ergebnis ist eine priorisierte GAP-Liste mit Kosten- und Termineinfluss — brauchbar in einem Datensaal, nicht nur in einem Workshop.",
+      "points": [
+        "Norm- und Versichererabgleich",
+        "Bestand vs. Planung vs. Betrieb",
+        "Capex-/Opex-Relevanz der Lücken",
+        "Maßnahmenplan mit Verantwortlichen"
+      ]
+    },
+    "en": {
+      "title": "Due diligence and gap analysis",
+      "lede": "Alignment to NFPA 855, VdS 3103, IEC 62933-5-2, FM DS 5-48 — for investors, buyers, operators.",
+      "body": "We test what is missing contractually, for insurance, and for the permit. The output is a ranked gap list with cost and schedule impact — usable in a data room, not only in a workshop.",
+      "points": [
+        "Code and insurer alignment",
+        "As-built vs. design vs. operations",
+        "Capex and opex relevance of gaps",
+        "Action plan with owners"
+      ]
+    }
+  },
+  {
+    "id": "operations",
+    "index": "06",
+    "de": {
+      "title": "Betrieb und Schulung",
+      "lede": "Alarmstufen, Freischaltung, Übungen mit der Feuerwehr, Änderungsmanagement im laufenden Betrieb.",
+      "body": "Ein genehmigtes Konzept ist wertlos, wenn Schicht und Leitstelle es nicht fahren können. Wir übersetzen Nachweise in Betriebsanweisungen, Übungsdrehbücher und Änderungsprozesse bei Repowering oder Nachrüstung.",
+      "points": [
+        "Betriebliches Brandschutzkonzept",
+        "Übungen und Einsatzunterlagen Feuerwehr",
+        "Änderung an Chemie, Layout, Leistung",
+        "Wiederkehrende Prüfung und Dokumentation"
+      ]
+    },
+    "en": {
+      "title": "Operations and training",
+      "lede": "Alarm stages, isolation, drills with the fire service, change control in operation.",
+      "body": "An approved concept is worthless if the shift and control room cannot run it. We translate evidence into operating instructions, drill scripts and change processes for repowering or retrofit.",
+      "points": [
+        "Operational fire-safety concept",
+        "Drills and fire-service response packs",
+        "Changes to chemistry, layout, rating",
+        "Periodic inspection and records"
+      ]
+    }
+  }
+]
