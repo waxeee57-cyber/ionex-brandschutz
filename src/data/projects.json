@@ -1,0 +1,894 @@
+[
+  {
+    "id": "IX-DE-2022-014",
+    "name": "Gridbooster Dörpen",
+    "city": "Dörpen",
+    "region": "Niedersachsen",
+    "country": "DE",
+    "year": 2022,
+    "capacityMwh": 250,
+    "powerMw": 100,
+    "type": "netzbooster",
+    "scope": "Netzbooster: thermische Last, Kapselung, Netzbetreiber-Auflagen",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2021-015",
+    "name": "Speicher Neuruppin",
+    "city": "Neuruppin",
+    "region": "Brandenburg",
+    "country": "DE",
+    "year": 2021,
+    "capacityMwh": 80,
+    "powerMw": 20,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2023-016",
+    "name": "Hybridpark Altmark",
+    "city": "Salzwedel",
+    "region": "Sachsen-Anhalt",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 48,
+    "powerMw": 12,
+    "type": "pv-hybrid",
+    "scope": "Hybrid-Brandschutzkonzept PV+BESS, Trennung Gleichstrombereich",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2020-017",
+    "name": "Industriepark Höchst BESS",
+    "city": "Frankfurt am Main",
+    "region": "Hessen",
+    "country": "DE",
+    "year": 2020,
+    "capacityMwh": 24,
+    "powerMw": 10,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2019-018",
+    "name": "Batterie Wunsiedel",
+    "city": "Wunsiedel",
+    "region": "Bayern",
+    "country": "DE",
+    "year": 2019,
+    "capacityMwh": 8.5,
+    "powerMw": 8.5,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2019-019",
+    "name": "Speicher Bordesholm",
+    "city": "Bordesholm",
+    "region": "Schleswig-Holstein",
+    "country": "DE",
+    "year": 2019,
+    "capacityMwh": 15,
+    "powerMw": 10,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2024-020",
+    "name": "Lausitz Speicher I",
+    "city": "Altdöbern",
+    "region": "Brandenburg",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 110,
+    "powerMw": 50,
+    "type": "standalone",
+    "scope": "Brandschutzkonzept, thermische Ereignisanalyse, Löschwassernachweis",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2023-021",
+    "name": "PV-Hybrid Kupferzell",
+    "city": "Kupferzell",
+    "region": "Baden-Württemberg",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 36,
+    "powerMw": 12,
+    "type": "pv-hybrid",
+    "scope": "Gemeinsame Erschließung, Löschwasser, Zufahrten Feuerwehr",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2024-022",
+    "name": "Wind-Hybrid Cuxhaven",
+    "city": "Cuxhaven",
+    "region": "Niedersachsen",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 42,
+    "powerMw": 14,
+    "type": "wind-hybrid",
+    "scope": "Brandschutz Wind+BESS, Trafostation und Speicher getrennt nachgewiesen",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2025-023",
+    "name": "Netzbooster Hamm",
+    "city": "Hamm",
+    "region": "Nordrhein-Westfalen",
+    "country": "DE",
+    "year": 2025,
+    "capacityMwh": 200,
+    "powerMw": 100,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2022-024",
+    "name": "Speicher Moers",
+    "city": "Moers",
+    "region": "Nordrhein-Westfalen",
+    "country": "DE",
+    "year": 2022,
+    "capacityMwh": 20,
+    "powerMw": 10,
+    "type": "hinterzaehler",
+    "scope": "Behind-the-meter, Gebäudeabstände, betriebliches Alarmkonzept",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2023-025",
+    "name": "Magdeburg Hafen BESS",
+    "city": "Magdeburg",
+    "region": "Sachsen-Anhalt",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 55,
+    "powerMw": 20,
+    "type": "standalone",
+    "scope": "GAP-Analyse NFPA 855 / VdS 3103, Behördenterminbegleitung",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2024-026",
+    "name": "Leipziger Land Speicher",
+    "city": "Borna",
+    "region": "Sachsen",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 64,
+    "powerMw": 25,
+    "type": "pv-hybrid",
+    "scope": "Hybrid-Brandschutzkonzept PV+BESS, Trennung Gleichstrombereich",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2021-027",
+    "name": "Kiel Förde Speicher",
+    "city": "Kiel",
+    "region": "Schleswig-Holstein",
+    "country": "DE",
+    "year": 2021,
+    "capacityMwh": 18,
+    "powerMw": 9,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2025-028",
+    "name": "Emden Hafen BESS",
+    "city": "Emden",
+    "region": "Niedersachsen",
+    "country": "DE",
+    "year": 2025,
+    "capacityMwh": 96,
+    "powerMw": 48,
+    "type": "netzbooster",
+    "scope": "Netzbooster: thermische Last, Kapselung, Netzbetreiber-Auflagen",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-planung"
+  },
+  {
+    "id": "IX-DE-2022-029",
+    "name": "Chemnitz Industrie BESS",
+    "city": "Chemnitz",
+    "region": "Sachsen",
+    "country": "DE",
+    "year": 2022,
+    "capacityMwh": 12,
+    "powerMw": 6,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2023-030",
+    "name": "Erfurt Solar+Speicher",
+    "city": "Erfurt",
+    "region": "Thüringen",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 28,
+    "powerMw": 10,
+    "type": "pv-hybrid",
+    "scope": "Hybrid-Brandschutzkonzept PV+BESS, Trennung Gleichstrombereich",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2020-031",
+    "name": "Speyer Raffinerie BESS",
+    "city": "Speyer",
+    "region": "Rheinland-Pfalz",
+    "country": "DE",
+    "year": 2020,
+    "capacityMwh": 16,
+    "powerMw": 8,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2024-032",
+    "name": "Mannheim Hafen Speicher",
+    "city": "Mannheim",
+    "region": "Baden-Württemberg",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 40,
+    "powerMw": 20,
+    "type": "standalone",
+    "scope": "Brandschutzkonzept, thermische Ereignisanalyse, Löschwassernachweis",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2023-033",
+    "name": "Würzburg Netzpuffer",
+    "city": "Würzburg",
+    "region": "Bayern",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 22,
+    "powerMw": 11,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2021-034",
+    "name": "Ingolstadt Werk BESS",
+    "city": "Ingolstadt",
+    "region": "Bayern",
+    "country": "DE",
+    "year": 2021,
+    "capacityMwh": 10,
+    "powerMw": 5,
+    "type": "hinterzaehler",
+    "scope": "Behind-the-meter, Gebäudeabstände, betriebliches Alarmkonzept",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2022-035",
+    "name": "Aachen Campus Speicher",
+    "city": "Aachen",
+    "region": "Nordrhein-Westfalen",
+    "country": "DE",
+    "year": 2022,
+    "capacityMwh": 6,
+    "powerMw": 3,
+    "type": "hinterzaehler",
+    "scope": "Werkschutz, Detektion, Eskalationsstufen bis Werksfeuerwehr",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2025-036",
+    "name": "Gelsenkirchen Revier BESS",
+    "city": "Gelsenkirchen",
+    "region": "Nordrhein-Westfalen",
+    "country": "DE",
+    "year": 2025,
+    "capacityMwh": 75,
+    "powerMw": 30,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2024-037",
+    "name": "Lübeck Trave Speicher",
+    "city": "Lübeck",
+    "region": "Schleswig-Holstein",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 30,
+    "powerMw": 15,
+    "type": "standalone",
+    "scope": "GAP-Analyse NFPA 855 / VdS 3103, Behördenterminbegleitung",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2023-038",
+    "name": "Rostock Seehafen BESS",
+    "city": "Rostock",
+    "region": "Mecklenburg-Vorpommern",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 50,
+    "powerMw": 25,
+    "type": "netzbooster",
+    "scope": "Netzbooster: thermische Last, Kapselung, Netzbetreiber-Auflagen",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2025-039",
+    "name": "Cottbus Lausitz II",
+    "city": "Cottbus",
+    "region": "Brandenburg",
+    "country": "DE",
+    "year": 2025,
+    "capacityMwh": 140,
+    "powerMw": 70,
+    "type": "pv-hybrid",
+    "scope": "Gemeinsame Erschließung, Löschwasser, Zufahrten Feuerwehr",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2022-040",
+    "name": "Frankfurt (Oder) Speicher",
+    "city": "Frankfurt (Oder)",
+    "region": "Brandenburg",
+    "country": "DE",
+    "year": 2022,
+    "capacityMwh": 32,
+    "powerMw": 16,
+    "type": "standalone",
+    "scope": "GAP-Analyse NFPA 855 / VdS 3103, Behördenterminbegleitung",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2021-041",
+    "name": "Kassel Bergpark BESS",
+    "city": "Kassel",
+    "region": "Hessen",
+    "country": "DE",
+    "year": 2021,
+    "capacityMwh": 14,
+    "powerMw": 7,
+    "type": "pv-hybrid",
+    "scope": "Gemeinsame Erschließung, Löschwasser, Zufahrten Feuerwehr",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2024-042",
+    "name": "Darmstadt Süd Speicher",
+    "city": "Darmstadt",
+    "region": "Hessen",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 26,
+    "powerMw": 13,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2020-043",
+    "name": "Wolfsburg Werkpuffer",
+    "city": "Wolfsburg",
+    "region": "Niedersachsen",
+    "country": "DE",
+    "year": 2020,
+    "capacityMwh": 18,
+    "powerMw": 9,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2023-044",
+    "name": "Salzgitter Stahl BESS",
+    "city": "Salzgitter",
+    "region": "Niedersachsen",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 44,
+    "powerMw": 22,
+    "type": "industrie",
+    "scope": "BESS im Industriepark, StörfallV-Schnittstelle, Werksfeuerwehr",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2025-045",
+    "name": "Duisburg Logport Speicher",
+    "city": "Duisburg",
+    "region": "Nordrhein-Westfalen",
+    "country": "DE",
+    "year": 2025,
+    "capacityMwh": 60,
+    "powerMw": 30,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2022-046",
+    "name": "Saarlouis Industrie BESS",
+    "city": "Saarlouis",
+    "region": "Saarland",
+    "country": "DE",
+    "year": 2022,
+    "capacityMwh": 11,
+    "powerMw": 5.5,
+    "type": "industrie",
+    "scope": "BESS im Industriepark, StörfallV-Schnittstelle, Werksfeuerwehr",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2024-047",
+    "name": "Regensburg Donau Speicher",
+    "city": "Regensburg",
+    "region": "Bayern",
+    "country": "DE",
+    "year": 2024,
+    "capacityMwh": 34,
+    "powerMw": 17,
+    "type": "standalone",
+    "scope": "Brandschutzkonzept, thermische Ereignisanalyse, Löschwassernachweis",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-DE-2021-048",
+    "name": "Helmstedt Übergang BESS",
+    "city": "Helmstedt",
+    "region": "Niedersachsen",
+    "country": "DE",
+    "year": 2021,
+    "capacityMwh": 90,
+    "powerMw": 45,
+    "type": "netzbooster",
+    "scope": "Netzbooster: thermische Last, Kapselung, Netzbetreiber-Auflagen",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2023-049",
+    "name": "Pleinting Inn Speicher",
+    "city": "Pleinting",
+    "region": "Bayern",
+    "country": "DE",
+    "year": 2023,
+    "capacityMwh": 19,
+    "powerMw": 8,
+    "type": "pv-hybrid",
+    "scope": "Gemeinsame Erschließung, Löschwasser, Zufahrten Feuerwehr",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DE-2020-050",
+    "name": "Schwerin Netz BESS",
+    "city": "Schwerin",
+    "region": "Mecklenburg-Vorpommern",
+    "country": "DE",
+    "year": 2020,
+    "capacityMwh": 21,
+    "powerMw": 10,
+    "type": "standalone",
+    "scope": "Brandschutzkonzept, thermische Ereignisanalyse, Löschwassernachweis",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-NL-2023-051",
+    "name": "Vlissingen Haven BESS",
+    "city": "Vlissingen",
+    "region": "Zeeland",
+    "country": "NL",
+    "year": 2023,
+    "capacityMwh": 88,
+    "powerMw": 44,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-NL-2024-052",
+    "name": "Eemshaven Grid Buffer",
+    "city": "Eemshaven",
+    "region": "Groningen",
+    "country": "NL",
+    "year": 2024,
+    "capacityMwh": 120,
+    "powerMw": 60,
+    "type": "netzbooster",
+    "scope": "Netzbooster: thermische Last, Kapselung, Netzbetreiber-Auflagen",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-NL-2022-053",
+    "name": "Moerdijk Industrie BESS",
+    "city": "Moerdijk",
+    "region": "Noord-Brabant",
+    "country": "NL",
+    "year": 2022,
+    "capacityMwh": 28,
+    "powerMw": 14,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-BE-2024-054",
+    "name": "Zeebrugge Port Storage",
+    "city": "Zeebrugge",
+    "region": "West-Vlaanderen",
+    "country": "BE",
+    "year": 2024,
+    "capacityMwh": 52,
+    "powerMw": 26,
+    "type": "standalone",
+    "scope": "Abstandsnachweis, Detektionskonzept, Stellungnahme Versicherer",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-BE-2021-055",
+    "name": "Tessenderlo Chemical BESS",
+    "city": "Tessenderlo",
+    "region": "Limburg",
+    "country": "BE",
+    "year": 2021,
+    "capacityMwh": 15,
+    "powerMw": 7.5,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-AT-2023-056",
+    "name": "Linz Stahlwerk Speicher",
+    "city": "Linz",
+    "region": "Oberösterreich",
+    "country": "AT",
+    "year": 2023,
+    "capacityMwh": 33,
+    "powerMw": 16,
+    "type": "industrie",
+    "scope": "BESS im Industriepark, StörfallV-Schnittstelle, Werksfeuerwehr",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-AT-2025-057",
+    "name": "Wien Süd BESS",
+    "city": "Wien",
+    "region": "Wien",
+    "country": "AT",
+    "year": 2025,
+    "capacityMwh": 40,
+    "powerMw": 20,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-AT-2022-058",
+    "name": "Graz Mur Speicher",
+    "city": "Graz",
+    "region": "Steiermark",
+    "country": "AT",
+    "year": 2022,
+    "capacityMwh": 12,
+    "powerMw": 6,
+    "type": "pv-hybrid",
+    "scope": "Hybrid-Brandschutzkonzept PV+BESS, Trennung Gleichstrombereich",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-PL-2024-059",
+    "name": "Szczecin Port BESS",
+    "city": "Szczecin",
+    "region": "Zachodniopomorskie",
+    "country": "PL",
+    "year": 2024,
+    "capacityMwh": 70,
+    "powerMw": 35,
+    "type": "standalone",
+    "scope": "Brandschutzkonzept, thermische Ereignisanalyse, Löschwassernachweis",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-PL-2023-060",
+    "name": "Wrocław Solar Hybrid",
+    "city": "Wrocław",
+    "region": "Dolnośląskie",
+    "country": "PL",
+    "year": 2023,
+    "capacityMwh": 38,
+    "powerMw": 15,
+    "type": "pv-hybrid",
+    "scope": "Hybrid-Brandschutzkonzept PV+BESS, Trennung Gleichstrombereich",
+    "standards": [
+      "IEC 62933-5-2",
+      "DIN EN 13501"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-PL-2025-061",
+    "name": "Gdańsk Harbour Buffer",
+    "city": "Gdańsk",
+    "region": "Pomorskie",
+    "country": "PL",
+    "year": 2025,
+    "capacityMwh": 84,
+    "powerMw": 42,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "VdS 3103",
+      "BauO",
+      "BImSchG"
+    ],
+    "status": "in-planung"
+  },
+  {
+    "id": "IX-CZ-2024-062",
+    "name": "Most Coal-Exit BESS",
+    "city": "Most",
+    "region": "Ústecký",
+    "country": "CZ",
+    "year": 2024,
+    "capacityMwh": 46,
+    "powerMw": 23,
+    "type": "standalone",
+    "scope": "Brandschutzkonzept, thermische Ereignisanalyse, Löschwassernachweis",
+    "standards": [
+      "NFPA 855",
+      "VdS 3103"
+    ],
+    "status": "genehmigt"
+  },
+  {
+    "id": "IX-CZ-2022-063",
+    "name": "Ostrava Industry Buffer",
+    "city": "Ostrava",
+    "region": "Moravskoslezský",
+    "country": "CZ",
+    "year": 2022,
+    "capacityMwh": 20,
+    "powerMw": 10,
+    "type": "industrie",
+    "scope": "Hinter-Zähler-Speicher, benachbarte Produktionsgebäude",
+    "standards": [
+      "NFPA 855",
+      "IEC 62933-5-2"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DK-2023-064",
+    "name": "Esbjerg Harbour BESS",
+    "city": "Esbjerg",
+    "region": "Syddanmark",
+    "country": "DK",
+    "year": 2023,
+    "capacityMwh": 58,
+    "powerMw": 29,
+    "type": "wind-hybrid",
+    "scope": "Brandschutz Wind+BESS, Trafostation und Speicher getrennt nachgewiesen",
+    "standards": [
+      "VdS 3103",
+      "MIndBauRL"
+    ],
+    "status": "in-betrieb"
+  },
+  {
+    "id": "IX-DK-2025-065",
+    "name": "Aalborg Grid Storage",
+    "city": "Aalborg",
+    "region": "Nordjylland",
+    "country": "DK",
+    "year": 2025,
+    "capacityMwh": 66,
+    "powerMw": 33,
+    "type": "netzbooster",
+    "scope": "Mehrcontainer-Anlage, Brandabschnitte, Löschstrategie je String",
+    "standards": [
+      "NFPA 855",
+      "FM DS 5-48"
+    ],
+    "status": "in-betrieb"
+  }
+]
